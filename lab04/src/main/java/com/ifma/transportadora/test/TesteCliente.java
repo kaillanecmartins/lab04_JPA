@@ -16,9 +16,9 @@ public class TesteCliente {
         ClienteRepository clienteRepository= new ClienteRepository(em);
         
         Cliente cliente = new Cliente();
-        cliente.setNome("João");
-        cliente.setEndereco("Rua A, 123");
-        cliente.setTelefone("(98)91234-5678");
+        cliente.setNome("Josivaldo Leite");
+        cliente.setEndereco("Rua Dourada, 123");
+        cliente.setTelefone("(81)92536-4703");
 
         clienteRepository.salvarCliente(cliente);
 

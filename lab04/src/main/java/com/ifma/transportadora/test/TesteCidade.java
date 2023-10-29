@@ -15,8 +15,8 @@ public class TesteCidade {
         CidadeRepository cidadeRepository = new CidadeRepository(em);
 
         Cidade cidade = new Cidade();
-        cidade.setNome("São Paulo");
-        cidade.setUF("SP");
+        cidade.setNome("Belém");
+        cidade.setUF("PA");
         cidade.setTaxa(5.0f);
 
         cidadeRepository.salvarCidade(cidade);
